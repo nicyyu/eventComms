@@ -1,3 +1,4 @@
+.sfdx
 **/lwc/**/*.css
 **/lwc/**/*.html
 **/lwc/**/*.json
@@ -13,4 +14,3 @@
 **/aura/**/*.tokens
 **/aura/**/*.xml
 **/aura/**/*.app
-.sfdx
