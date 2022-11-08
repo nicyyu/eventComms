@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: "Checkout source code"
         uses: actions/checkout@v3
+      - name: "Install modules"
+        run: npm install
         # ESlint
       - name: "Lint Lightning Web Components"
         run: npm run lint:lwc
